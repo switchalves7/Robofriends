@@ -5,11 +5,12 @@ import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 import  { robots } from './robots';
 import CardsList from './components/CardsList';
+import App from './App'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <CardsList robots={robots}/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
