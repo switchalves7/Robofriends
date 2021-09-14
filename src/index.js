@@ -6,6 +6,7 @@ import 'tachyons';
 import  { robots } from './robots';
 import CardsList from './components/CardsList';
 import App from './App'
+import './App.css'
 
 
 ReactDOM.render(
