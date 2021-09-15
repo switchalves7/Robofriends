@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
-import  { robots } from './robots';
+// import  { robots } from './robots';
 import CardsList from './components/CardsList';
 import App from './App'
 import './App.css'
+import Scroll from './Scroll'
 
 
 ReactDOM.render(
